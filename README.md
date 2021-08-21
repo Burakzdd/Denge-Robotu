@@ -27,3 +27,4 @@ Devreye gelen enerjinin açıp kapatılması için bir anahtar kullanılmaktadı
 
 ## Yapım Aşaması / Dizayn
 
+## Çalışma mantığı
