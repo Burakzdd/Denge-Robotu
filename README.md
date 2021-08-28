@@ -5,7 +5,6 @@ Bu repoda MPU-6050 6 eksen gyro ve ivme sensörü kullanılarak yapılan dengede
 
 ### 1- MPU6050 Ivme Ve Gyro Sensörü
 MPU050 ivme sönsörü genellikle İHA ve denge robotu tarzı araçlarda kullanılan 3 eksenli açısal ivme ve 3 eksenli gyroskop ölçümü yapalıbal 6 eksenli sensörlerdir. İvme ölçümü bize hızdaki değişimi verirken, jiroskop ise bize açısal hızın korunmasından kaynaklı yönü vermektedir. Ayrıca, modül üzerinde X ve Y eksenlerini gösteren işaretler mevcuttur.
-![alt text]()
 Sensör üzerinde toplanda 8 adet pin bulunmaktadır. VCC pini gücün + bacağına, GND pini ise - bacağına bağlanmalıdır. 3.3volt ile çalışmaktadır. 
 SCL ve SDA pinleri ise I2C haberleşme protokolünü sağlamaktadır. I2C (Inter-Integrated Circuit) haberleşme protokolü, seri haberleşme türklerinden senkron haberleşmeyi sağlamaktadır. Bu protokol ile hızlı bir şekilde aktarım yapılmaktadır.
 En sondaki INT pini ise programlama kartı üzerindeki bir dijital pine takılarak kullanılmaktadır.
@@ -24,6 +23,23 @@ Arduino 9 voltluk pil ile beslenmektedir. Bunun yanı sıra motorlar da motorv s
 Devreye gelen enerjinin açıp kapatılması için bir anahtar kullanılmaktadır.
 
 ## Devre Bağlantıları
+![alt text](https://github.com/Burakzdd/Denge-Robotu/blob/main/flowchart.jpg)
+Görselde bağlatılar gözükmektedir. 
+### 1-İlk olarak motorlar motor sürücünün birer tarafına bağlanmaktadır. Yönlerinde eğer hata varsa en son motorun iki ucunu ters çevirevbilirsiniz!.
+
+### 2-Daha sonra motor sürcü arduinoya bağlanmaktadır. Bu çalışmada ENA ve ENB pinleri de kullanılmaktadır. Sırasıyla bağlantılar şu şekildedir. ENA ve ENB pinleri sırasıyla arduinonun 3. ve 6. pinine; IN1, IN2, IN3, IN4 pinleri ise sırasıyla arduinonun 4.,8.,5. ve 7. pinlerine bağlanmalıdır.
+
+*int ENA = 3;
+int IN1 = 4;
+int IN2 = 8;
+int IN3 = 5;
+int IN4 = 7;
+int ENB = 6;
+
+*LMotorController motorController(ENA, IN1, IN2, ENB, IN3, IN4, 0.6, 1);
+
+### 3- 
+
 
 ## Yapım Aşaması / Dizayn
 
