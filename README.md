@@ -32,10 +32,15 @@ Görselde bağlatılar gözükmektedir.
 2- Daha sonra motor sürcü arduinoya bağlanmaktadır. Bu çalışmada ENA ve ENB pinleri de kullanılmaktadır. Sırasıyla bağlantılar şu şekildedir. ENA ve ENB pinleri sırasıyla arduinonun 3. ve 6. pinine; IN1, IN2, IN3, IN4 pinleri ise sırasıyla arduinonun 4.,8.,5. ve 7. pinlerine bağlanmalıdır.
 
 int ENA = 3;
+
 int IN1 = 4;
+
 int IN2 = 8;
+
 int IN3 = 5;
+
 int IN4 = 7;
+
 int ENB = 6;
 
 LMotorController motorController(ENA, IN1, IN2, ENB, IN3, IN4, 0.6, 1);
