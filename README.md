@@ -1,4 +1,4 @@
-# Denge-Robotu
+# Denge-Robotu "Hacıyatmaz Robot"
 Bu repoda MPU-6050 6 eksen gyro ve ivme sensörü kullanılarak yapılan dengede durabilme yeteneğine sahip robotun yapımı anlatılmıştır.
 
 ## Kullanılan Malzemeler
@@ -23,13 +23,11 @@ Arduino 9 voltluk pil ile beslenmektedir. Bunun yanı sıra motorlar da motorv s
 Devreye gelen enerjinin açıp kapatılması için bir anahtar kullanılmaktadır.
 
 ## Devre Bağlantıları
-![alt text](https://github.com/Burakzdd/Denge-Robotu/blob/main/flowchart.jpg)
+![alt text](https://github.com/Burakzdd/Denge-Robotu/blob/main/Flowchart.jpg)
                                             Görselde bağlatılar gözükmektedir. 
-### 1-
-İlk olarak motorlar motor sürücünün birer tarafına bağlanmaktadır. Yönlerinde eğer hata varsa en son motorun iki ucunu ters çevirevbilirsiniz!.
+1- İlk olarak motorlar motor sürücünün birer tarafına bağlanmaktadır. Yönlerinde eğer hata varsa en son motorun iki ucunu ters çevirevbilirsiniz!.
 
-### 2-
-Daha sonra motor sürcü arduinoya bağlanmaktadır. Bu çalışmada ENA ve ENB pinleri de kullanılmaktadır. Sırasıyla bağlantılar şu şekildedir. ENA ve ENB pinleri sırasıyla arduinonun 3. ve 6. pinine; IN1, IN2, IN3, IN4 pinleri ise sırasıyla arduinonun 4.,8.,5. ve 7. pinlerine bağlanmalıdır.
+2- Daha sonra motor sürcü arduinoya bağlanmaktadır. Bu çalışmada ENA ve ENB pinleri de kullanılmaktadır. Sırasıyla bağlantılar şu şekildedir. ENA ve ENB pinleri sırasıyla arduinonun 3. ve 6. pinine; IN1, IN2, IN3, IN4 pinleri ise sırasıyla arduinonun 4.,8.,5. ve 7. pinlerine bağlanmalıdır.
 
 int ENA = 3;
 int IN1 = 4;
@@ -40,9 +38,9 @@ int ENB = 6;
 
 LMotorController motorController(ENA, IN1, IN2, ENB, IN3, IN4, 0.6, 1);
 
-### 3-
+3- Sonraki aşamada MPU6050'nin arduinoya bağlantısı yapılır. Sensörün VCC pini arduinonun 3.3 voltu ile beslenmektedir. GND pini yine GND pini ile bağlanmalıdır. I2C protokolü ile seri haberleşmeyi sağlayan SCL ve SDA pinleri de sırasıyla arduino üzerindeki SCL ve SDA pinleri ile eşlenmesi gerkekmektedir. Son olarak ise INT pini arduinonun dijial D1 pini ile bağlanmaktadır.
 
-
+4- Son olarak bu robota bir enerji verilmesi gerekmektedir. Motor sürücünün 12V pinine pilin arttı ucu, GND pinine ise pilin eksi ucu bağlanmalıdır. Bu eksi GND bağlantısından aynı zamnada arduinonun da GND pinine bbir bağlantı yapılmalıdır. Motor sürücü üzerindeki 5V pini arduinonun VIN pinine bağlanmalıdır.
 
 ## Yapım Aşaması / Dizayn
 
