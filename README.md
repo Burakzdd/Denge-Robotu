@@ -23,8 +23,8 @@ Arduino 9 voltluk pil ile beslenmektedir. Bunun yanı sıra motorlar da motorv s
 Devreye gelen enerjinin açıp kapatılması için bir anahtar kullanılmaktadır.
 
 ## Devre Bağlantıları
-![alt text](https://github.com/Burakzdd/Denge-Robotu/blob/main/Flowchart.jpg)
-                                            Görselde bağlatılar gözükmektedir. 
+![alt text](https://github.com/Burakzdd/Denge-Robotu/blob/main/Flowchart.jpg)\n
+Görselde bağlatılar gözükmektedir. 
 1- İlk olarak motorlar motor sürücünün birer tarafına bağlanmaktadır. Yönlerinde eğer hata varsa en son motorun iki ucunu ters çevirevbilirsiniz!.
 
 2- Daha sonra motor sürcü arduinoya bağlanmaktadır. Bu çalışmada ENA ve ENB pinleri de kullanılmaktadır. Sırasıyla bağlantılar şu şekildedir. ENA ve ENB pinleri sırasıyla arduinonun 3. ve 6. pinine; IN1, IN2, IN3, IN4 pinleri ise sırasıyla arduinonun 4.,8.,5. ve 7. pinlerine bağlanmalıdır.
