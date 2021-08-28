@@ -24,21 +24,24 @@ Devreye gelen enerjinin açıp kapatılması için bir anahtar kullanılmaktadı
 
 ## Devre Bağlantıları
 ![alt text](https://github.com/Burakzdd/Denge-Robotu/blob/main/flowchart.jpg)
-Görselde bağlatılar gözükmektedir. 
-### 1-İlk olarak motorlar motor sürücünün birer tarafına bağlanmaktadır. Yönlerinde eğer hata varsa en son motorun iki ucunu ters çevirevbilirsiniz!.
+                                            Görselde bağlatılar gözükmektedir. 
+### 1-
+İlk olarak motorlar motor sürücünün birer tarafına bağlanmaktadır. Yönlerinde eğer hata varsa en son motorun iki ucunu ters çevirevbilirsiniz!.
 
-### 2-Daha sonra motor sürcü arduinoya bağlanmaktadır. Bu çalışmada ENA ve ENB pinleri de kullanılmaktadır. Sırasıyla bağlantılar şu şekildedir. ENA ve ENB pinleri sırasıyla arduinonun 3. ve 6. pinine; IN1, IN2, IN3, IN4 pinleri ise sırasıyla arduinonun 4.,8.,5. ve 7. pinlerine bağlanmalıdır.
+### 2-
+Daha sonra motor sürcü arduinoya bağlanmaktadır. Bu çalışmada ENA ve ENB pinleri de kullanılmaktadır. Sırasıyla bağlantılar şu şekildedir. ENA ve ENB pinleri sırasıyla arduinonun 3. ve 6. pinine; IN1, IN2, IN3, IN4 pinleri ise sırasıyla arduinonun 4.,8.,5. ve 7. pinlerine bağlanmalıdır.
 
-*int ENA = 3;
+int ENA = 3;
 int IN1 = 4;
 int IN2 = 8;
 int IN3 = 5;
 int IN4 = 7;
 int ENB = 6;
 
-*LMotorController motorController(ENA, IN1, IN2, ENB, IN3, IN4, 0.6, 1);
+LMotorController motorController(ENA, IN1, IN2, ENB, IN3, IN4, 0.6, 1);
 
-### 3- 
+### 3-
+
 
 
 ## Yapım Aşaması / Dizayn
