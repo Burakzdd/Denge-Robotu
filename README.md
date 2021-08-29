@@ -50,7 +50,7 @@ LMotorController motorController(ENA, IN1, IN2, ENB, IN3, IN4, 0.6, 1);
 ### 3- MPU6050 -> Arduino
 Sonraki aşamada MPU6050'nin arduinoya bağlantısı yapılır. Sensörün VCC pini arduinonun 3.3 voltu ile beslenmektedir. GND pini yine GND pini ile bağlanmalıdır. I2C protokolü ile seri haberleşmeyi sağlayan SCL ve SDA pinleri de sırasıyla arduino üzerindeki SCL ve SDA pinleri ile eşlenmesi gerkekmektedir. Son olarak ise INT pini arduinonun dijial D1 pini ile bağlanmaktadır.
 
-###4- Enerji -> Devre
+### 4- Enerji -> Devre
 Son olarak bu robota bir enerji verilmesi gerekmektedir. Motor sürücünün 12V pinine pilin arttı ucu, GND pinine ise pilin eksi ucu bağlanmalıdır. Bu eksi GND bağlantısından aynı zamnada arduinonun da GND pinine bbir bağlantı yapılmalıdır. Motor sürücü üzerindeki 5V pini arduinonun VIN pinine bağlanmalıdır.
 
 ## Yapım Aşaması / Dizayn
