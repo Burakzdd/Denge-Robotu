@@ -66,4 +66,5 @@ Son olarak bu robota bir enerji verilmesi gerekmektedir. Motor sürücünün 12V
 
 ![alt text](https://github.com/Burakzdd/Denge-Robotu/blob/main/Pictures/8.jpeg)
 
+![alt text](https://github.com/Burakzdd/Denge-Robotu/blob/main/Pictures/10.png)
 ## Çalışma mantığı
