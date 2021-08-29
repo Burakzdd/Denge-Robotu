@@ -72,4 +72,4 @@ Robotu iki katlı olarak tasarladım. Bu katlar 20cm-10cm boyutlarında bir prof
 ![alt text](https://github.com/Burakzdd/Denge-Robotu/blob/main/Pictures/10.png)
 ## Çalışma mantığı
 
-Bu projede çalışrken dikkat edilmesi gereken en önemli durum motorların dönüş yönüdür. Robotu kendimize doğru eğdiğimizde motorların bize doğru hareket etmesi gerekmektedir. Robotun çalışma mantığı şu şekildedir. Robot her zaman kendini düz konuma yani x eksnindeki eğimini sıfırlamaya çalışmaktadır
+Bu projede çalışırken dikkat edilmesi gereken en önemli durum motorların dönüş yönüdür. Robotu kendimize doğru eğdiğimizde motorların bize doğru hareket etmesi gerekmektedir. Robotun çalışma mantığı şu şekildedir. Robot her zaman kendini düz konuma getirmeye yani x eksenindeki eğimini sıfırlamaya çalışmaktadır. robot ileri doğru yattığında motorlar ileri giderek robotu düz konuma getirmeye çalışmaktadır. Aynı şekilde robot geriye doğru gittiğinde motorlar geriye doğru giderek robotun eğinimi sıfırlamaya çalışmaktadır
