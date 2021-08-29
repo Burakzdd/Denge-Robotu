@@ -24,7 +24,6 @@ Devreye gelen enerjinin açıp kapatılması için bir anahtar kullanılmaktadı
 
 ## Devre Bağlantıları
 ![alt text](https://github.com/Burakzdd/Denge-Robotu/blob/main/Flowchart.jpg)
-Görselde bağlatılar gözükmektedir. 
 
 
 ### 1- Motor -> Motor Sürücü
