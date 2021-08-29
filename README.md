@@ -57,6 +57,8 @@ Robotu iki katlı olarak tasarladım. Bu katlar 20cm-10cm boyutlarında bir prof
 
 ![alt text](https://github.com/Burakzdd/Denge-Robotu/blob/main/Pictures/2.jpeg)
 
+![alt text](https://github.com/Burakzdd/Denge-Robotu/blob/main/Pictures/3.jpeg)
+
 ![alt text](https://github.com/Burakzdd/Denge-Robotu/blob/main/Pictures/9.jpeg)
 
 ![alt text](https://github.com/Burakzdd/Denge-Robotu/blob/main/Pictures/5.jpeg)
