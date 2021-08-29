@@ -54,6 +54,8 @@ Sonraki aşamada MPU6050'nin arduinoya bağlantısı yapılır. Sensörün VCC p
 Son olarak bu robota bir enerji verilmesi gerekmektedir. Motor sürücünün 12V pinine pilin arttı ucu, GND pinine ise pilin eksi ucu bağlanmalıdır. Bu eksi GND bağlantısından aynı zamnada arduinonun da GND pinine bbir bağlantı yapılmalıdır. Motor sürücü üzerindeki 5V pini arduinonun VIN pinine bağlanmalıdır.
 
 ## Yapım Aşaması / Dizayn
+Robotu iki katlı olarak tasarladım. Bu katlar 20cm-10cm boyutlarında bir profil keserek yapılmıştır. İlk kata motorların girmesi için girintiler açılmıştır. ve piller bu kata yerleştrilmiştir. İlk başta 9 volt olarak tasarlanan bu robot daha sonra 12 volta yükseltilmiştir. Arduino, motor sürücü ve MPU6050 ise üst katına yerleştirilmiştir. Ürünler yerleştirildikten sonra güzel durması açısından kablolar kısaltılarak lehimlenmiştir. son olarak ise robotun dışına bir kaplama yapılmıştır.
+
 ![alt text](https://github.com/Burakzdd/Denge-Robotu/blob/main/Pictures/2.jpeg)
 
 ![alt text](https://github.com/Burakzdd/Denge-Robotu/blob/main/Pictures/9.jpeg)
