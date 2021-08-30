@@ -24,7 +24,7 @@ Devreye gelen enerjinin açıp kapatılması için bir anahtar kullanılmaktadı
 
 ## Devre Bağlantıları
 ![alt text](https://github.com/Burakzdd/Denge-Robotu/blob/main/Flowchart.jpg)
-
+![alt text](https://github.com/Burakzdd/Denge-Robotu/blob/main/Pictures/sistem_dizayn.jpg)
 
 ### 1- Motor -> Motor Sürücü
 İlk olarak motorlar motor sürücünün birer tarafına bağlanmaktadır. Yönlerinde eğer hata varsa en son motorun iki ucunu ters çevirevbilirsiniz!.
